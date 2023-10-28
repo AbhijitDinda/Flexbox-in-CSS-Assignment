@@ -1,0 +1,14 @@
+-------------------------FLEXBOX----------------------------------------------------
+CSS Grids are used for:-
+*Arranging elements horizontally and vertically.
+*Allowing flexible widths as a unit of length.
+*Precisely positioning and sizing elements.
+
+--------------------------GRIDS---------------------------------------------------
+
+CSS Flexboxes are used for:-
+*Working on either row or column at a time.
+*Giving more flexibility while working on either element.
+*Managing small parts of your layout.
+*Wrapping elements if they're too large to display in one line.
+*Putting one element after another, where each element may have a different width.

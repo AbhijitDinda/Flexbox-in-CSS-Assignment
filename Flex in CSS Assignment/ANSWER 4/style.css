@@ -1,0 +1,77 @@
+
+.main-container{
+    display: flex;
+    column-gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.pricing-card{
+    width: 230px;
+    height: 330px;
+    padding: 25px 28px;
+    box-shadow: 4px 3px 9px 0px;
+    border-radius: 8px;
+
+}
+.card__Header{
+    line-height: 4px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.card__Header p:nth-child(2) {
+    font-size: 15px;
+    margin-top: 26px;
+}
+.card__Header p:nth-child(3) {
+    font-size: 44px;
+    margin-bottom: 27px;
+}
+.card__content ul{
+    padding-left: 0px;
+    list-style-type: none;
+    list-style-position: inside;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+.card__content li{
+    background-image: url(./Image/Right.png);
+    background-repeat: no-repeat;
+    padding: 6px 0px 6px 40px;
+    background-position: 0 2px;
+}
+.second__card__content li{
+    background-image: url(./Image/RightBlack&white.png);
+    background-repeat: no-repeat;
+    padding: 6px 0px 6px 40px;
+    background-position: 0 2px;
+}
+.btn{
+    text-align: center;
+}
+.button{
+    padding: 10px;
+    width: 143px;
+    border-radius: 22px;
+    font-weight: bold;
+    background-color: #202842;
+    color: white;
+}
+
+.pricing-card-second{
+    width: 230px;
+    height: 330px;
+    padding: 25px 28px;
+    box-shadow: 4px 3px 9px 0px;
+    border-radius: 8px;
+    background-color: #202842;
+    color: white;
+}
+.btn__secondcard{
+   background-color: white;
+   color: black;
+}
+.icon-with-background {
+    background-color: #ffffff;
+    border-radius: 50%;
+    padding: 4px; /* Adjust the padding value to control the size of the background */
+    display: inline-block; /* Ensure the background only covers the icon, not the entire line */
+}

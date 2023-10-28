@@ -1,0 +1,39 @@
+
+-----------------1.justify-content:-------------------
+- **Description**: This property is used in Flexbox to control how items are positioned along the main axis (horizontal in a row or vertical in a column) within a Flexbox container.
+- **Common Values**:
+   - `flex-start`: Items align at the start of the main axis.
+   - `flex-end`: Items align at the end of the main axis.
+   - `center`: Items are centered along the main axis.
+   - `space-between`: Items are distributed with space between them.
+   - `space-around`: Items are evenly distributed with space around them.
+   - `space-evenly`: Items are evenly distributed with equal space around them.
+
+------------------2.align-items:-----------------------------------
+- **Description**:
+ Controls how items are positioned along the cross-axis (horizontal in a column or vertical in a row) within a Flexbox container.
+- **Common Values**:
+   - `flex-start`: Items align at the start of the cross-axis.
+   - `flex-end`: Items align at the end of the cross-axis.
+   - `center`: Items are centered along the cross-axis.
+   - `baseline`: Items are aligned based on their baselines.
+   - `stretch`: Items are stretched to fill the container along the cross-axis.
+
+----------------3.gap:-------------------------------------------------
+- **Description**: A property used in CSS Grid and Flexbox layouts to set the space between grid or flex items. It defines the gap or spacing between rows and columns in grids or between items in a Flexbox container.
+- **Usage**: `gap: 10px;` sets a 10-pixel gap between items.
+
+---------------------4.flex-direction:----------------------------------
+- **Description**: Specifies the direction in which flex items are laid out within a Flexbox container, defining the main and cross axes.
+- **Common Values**:
+   - `row`: Items are placed in a row (from left to right by default).
+   - `row-reverse`: Items are placed in a row in reverse order (from right to left).
+   - `column`: Items are placed in a column (from top to bottom by default).
+   - `column-reverse`: Items are placed in a column in reverse order (from bottom to top).
+
+-------------5.flex-wrap:--------------------------------------------------
+- **Description**: Controls whether flex items should wrap onto multiple lines if they don't fit within the container's width (in a row) or height (in a column).
+- **Common Values**:
+   - `nowrap`: Items do not wrap; they shrink to fit.
+   - `wrap`: Items wrap onto multiple lines as needed.
+   - `wrap-reverse`: Items wrap onto multiple lines in reverse order.
